@@ -51,7 +51,7 @@ This script uses **Selenium** and **Proxies** to simulate human-like behavior on
 
 3. **Create the `proxies.txt`** file in the same directory as the script and add your proxies in the following format:
    ```
-   173.0.9.209:5792:hgtpuldo:olquvdc1vxzi
+   173.0.9.209:5792:hgtpuldo:YourPassword
    92.22.34.56:1080:user1:pass1
    ...
    ```
