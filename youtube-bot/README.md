@@ -18,6 +18,7 @@ Dieses Skript ermöglicht die Automatisierung von Google-Suchen, das Abrufen von
 - Firefox-Webbrowser
 - GeckoDriver (wird automatisch installiert)
 - WebDriver Manager
+- Windows 10 / 11
 
 ## Installation
 
@@ -25,12 +26,12 @@ Dieses Skript ermöglicht die Automatisierung von Google-Suchen, das Abrufen von
 
 2. **Abhängigkeiten installieren**: Installiere die benötigten Python-Bibliotheken:
    ```bash
-   pip install selenium webdriver-manager
+   pip3 install selenium webdriver-manager
    ```
 
 3. **Führe das Skript aus**: Nachdem alle Abhängigkeiten installiert sind, führe das Skript aus:
    ```bash
-   python automatisiertes_skript.py
+   python3 main.py
    ```
 
 ## Funktionsweise des Skripts
@@ -68,6 +69,7 @@ This script automates Google searches, retrieves YouTube videos, and interacts w
 - Firefox Web Browser
 - GeckoDriver (automatically installed)
 - WebDriver Manager
+- Windows 10 / 11
 
 ## Installation
 
@@ -75,12 +77,12 @@ This script automates Google searches, retrieves YouTube videos, and interacts w
 
 2. **Install Dependencies**: Install the required Python libraries:
    ```bash
-   pip install selenium webdriver-manager
+   pip3 install selenium webdriver-manager
    ```
 
 3. **Run the Script**: After installing the dependencies, run the script:
    ```bash
-   python automated_script.py
+   python main.py
    ```
 
 ## How the Script Works
