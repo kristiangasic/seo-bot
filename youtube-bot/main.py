@@ -7,6 +7,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
 
 # Liste von Schlüsselwörtern mit zugehörigen URLs
 keywords_with_urls = {
@@ -68,7 +69,7 @@ def perform_search():
 
         # Suchfeld finden und Suche durchführen
         search_box = driver.find_element(By.NAME, "q")
-        search_box.send_keys(keyword)
+        human_typing(search_box, keyword)  # Tippvorgang simulieren
         search_box.submit()
 
         # Warte bis die Ergebnisse geladen sind
@@ -118,8 +119,7 @@ def accept_youtube_cookies(driver):
 
         # Warte, bis das Cookie-Popup sichtbar ist
         cookie_accept_button = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((
-                By.XPATH,
+            EC.element_to_be_clickable((By.XPATH,
                 "//button[contains(@aria-label, 'Verwendung von Cookies und anderen Daten zu den beschriebenen Zwecken akzeptieren') or contains(., 'Alle akzeptieren')]"
             ))
         )
@@ -150,6 +150,19 @@ def autoplay_video(driver):
             print("Gesrollt während der Wiedergabe.")
     except Exception as e:
         print(f"Fehler beim Abspielen des Videos: {e}")
+
+# Funktion für zufällige Mausbewegung
+def random_mouse_move(driver):
+    action = ActionChains(driver)
+    random_x = random.randint(0, 1920)
+    random_y = random.randint(0, 1080)
+    action.move_by_offset(random_x, random_y).perform()
+
+# Funktion zum simulieren von menschlichem Tippen (mit Verzögerung)
+def human_typing(element, text):
+    for char in text:
+        element.send_keys(char)
+        time.sleep(random.uniform(0.1, 0.3))  # Zufällige Verzögerung zwischen den Tastenanschlägen
 
 # Hauptaufruf
 if __name__ == "__main__":
