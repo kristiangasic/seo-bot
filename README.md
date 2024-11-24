@@ -23,8 +23,8 @@ This project is a script designed for **practice purposes only** to automate sim
 #### 2. Required Python Packages
 Run the following commands to install dependencies:
 ```bash
-pip install selenium
-pip install webdriver-manager
+pip3 install selenium
+pip3 install webdriver-manager
 ```
 
 #### 3. Additional Downloads
@@ -40,7 +40,7 @@ pip install webdriver-manager
 1. Clone this repository to your local machine.
 2. Run the script using Python:
    ```bash
-   python main.py
+   python3 main.py
    ```
 
 #### Script Logic
