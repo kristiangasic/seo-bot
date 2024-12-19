@@ -96,4 +96,6 @@ Feel free to submit issues or contribute enhancements via pull requests.
 ### Contact
 For business inquiries, reach out to:  
 **Kristian Gasic**  
-📧 kristian@gasic.bio  
+📧 kristian@gasic.bio
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/kristiangasic)
