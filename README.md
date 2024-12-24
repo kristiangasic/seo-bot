@@ -3,7 +3,7 @@
 ### Overview
 This project is a script designed for **practice purposes only** to automate simple Google searches and simulate user interactions on target web pages. It utilizes **Selenium WebDriver** with **Python** and requires a **Firefox browser**. Be aware of the potential risks of automated queries—Google may penalize such activities. Use responsibly and only within the bounds of legal and ethical guidelines.
 
-####New Version Coming Soon – Release Date: January 15, 2025!
+### New Version Coming Soon – Release Date: January 15, 2025!
 
 
 ---
