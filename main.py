@@ -1,5 +1,6 @@
 #Google Search - SEO bot 2025
 #Kristian Gasic - kristian@gasic.bio
+#New Version Coming Soon – Release Date: January 15, 2025!
 
 import time
 import random
