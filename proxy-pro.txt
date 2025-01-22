@@ -1,0 +1,10 @@
+198.23.239.134:6540:nimlbudu:5ujhfhchbh5q
+207.244.217.165:6712:nimlbudu:5ujhfhchbh5q
+107.172.163.27:6543:nimlbudu:5ujhfhchbh5q
+64.137.42.112:5157:nimlbudu:5ujhfhchbh5q
+173.211.0.148:6641:nimlbudu:5ujhfhchbh5q
+161.123.152.115:6360:nimlbudu:5ujhfhchbh5q
+167.160.180.203:6754:nimlbudu:5ujhfhchbh5q
+154.36.110.199:6853:nimlbudu:5ujhfhchbh5q
+173.0.9.70:5653:nimlbudu:5ujhfhchbh5q
+173.0.9.209:5792:nimlbudu:5ujhfhchbh5q
