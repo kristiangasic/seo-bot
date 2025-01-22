@@ -21,7 +21,7 @@ This project is a script designed for **practice purposes only** to automate sim
 
 #### 1. Prerequisites
 - **Operating System:** Windows 10/11.
-- **Browser:** Latest version of [Firefox](https://www.mozilla.org/en-US/firefox/new/).
+- **Browser:** Latest version of [Firefox/Geckodriver](https://github.com/mozilla/geckodriver/releases).
 - **Python Version:** Python 3.x.
 
 #### 2. Required Python Packages
