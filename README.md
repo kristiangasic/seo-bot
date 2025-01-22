@@ -38,7 +38,7 @@ pip install requests
 - [Python](https://www.python.org/downloads/)
 - [Selenium Documentation](https://www.selenium.dev/documentation/en/)
 - [Webdriver Manager Documentation](https://pypi.org/project/webdriver-manager/)
-- [Youtube Tutorial here](https://www.youtube.com/watch?v=FwXxlSh61eI)
+- [Youtube Tutorial here](https://www.youtube.com/watch?v=NKj2z_T5wkw)
 
 ---
 
