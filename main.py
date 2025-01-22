@@ -55,28 +55,29 @@ class SearchBot:
 
         # Search engines configuration
         self.search_engines = {
-            'bing': {
-                'url': 'https://www.bing.com',
-                'search_box': 'q',
-                'cookie_selectors': [
-                    "button[contains(., 'Accept')]",
-                    "button[contains(., 'Akzeptieren')]",
-                    "#bnp_btn_accept"
-                ]
-            },
-            'duckduckgo': {
-                'url': 'https://duckduckgo.com',
-                'search_box': 'q',
-                'cookie_selectors': []  # DuckDuckGo doesn't use cookie consent
-            },
-            'yahoo': {
-                'url': 'https://search.yahoo.com',
-                'search_box': 'p',
-                'cookie_selectors': [
-                    "//button[@class='btn secondary accept-all ' and @name='agree']"
-                ]
-            }
-        }
+        'bing': {
+        'url': 'https://www.bing.com',
+        'search_box': 'q',
+        'cookie_selectors': [
+            "#bnp_btn_accept",  # CSS selector for the Accept button
+            "//button[@id='bnp_btn_accept']",  # XPath for the Accept button
+            "//a[@href='javascript: void(0)' and @h='ID=Bnp,5007.1']"  # XPath for specific Accept link
+
+        ]
+    },
+        'duckduckgo': {
+        'url': 'https://duckduckgo.com',
+        'search_box': 'q',
+        'cookie_selectors': []  # DuckDuckGo doesn't use cookie consent
+    },
+        'yahoo': {
+        'url': 'https://search.yahoo.com',
+        'search_box': 'p',
+        'cookie_selectors': [
+            "//button[@class='btn secondary accept-all ' and @name='agree']" #XPath for the Accept button
+        ]
+    }
+}
 
     def load_working_proxies(self):
         try:
