@@ -3,16 +3,17 @@
 ### Overview
 This project is a script designed for **practice purposes only** to automate simple Google searches and simulate user interactions on target web pages. It utilizes **Selenium WebDriver** with **Python** and requires a **Firefox browser**. Be aware of the potential risks of automated queries—Google may penalize such activities. Use responsibly and only within the bounds of legal and ethical guidelines.
 
-### New Version Coming Soon – Release Date: January 15, 2025!
-
 
 ---
 
 ### Features
-- Randomized keyword-based Google searches.
-- Simulates user interactions (scrolling, clicking links) on target web pages.
-- Randomized user agents and browser window sizes for enhanced variability.
-- Automated cookie and terms acceptance.
+- **Multi-Engine Support**: Perform searches on Bing, DuckDuckGo, and Yahoo.
+- **Proxy Rotation**: Automatically rotates proxies to ensure anonymity.
+- **User-Agent Spoofing**: Randomly selects user-agents to mimic real browser activity.
+- **Headless Browsing**: Uses headless Firefox for efficient and invisible operations.
+- **Cookie Handling**: Automatically accepts cookie policies to prevent interruptions.
+- **Customizable Search Duration**: Define the duration for which the bot should visit and scroll through the search results.
+- **GUI Support**: User-friendly GUI for easy configuration and control of the bot.
 
 ---
 
