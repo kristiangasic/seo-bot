@@ -26,8 +26,11 @@ This project is a script designed for **practice purposes only** to automate sim
 #### 2. Required Python Packages
 Run the following commands to install dependencies:
 ```bash
-pip3 install selenium
-pip3 install webdriver-manager
+pip install selenium-wire
+pip install fake_useragent
+pip install customtkinter
+pip install urllib3
+pip install requests
 ```
 
 #### 3. Additional Downloads
